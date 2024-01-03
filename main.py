@@ -1,22 +1,32 @@
 import numpy as np
 
-""" I am going to vectorize different sides of 
-the rubic cube dynamically as the first first idea.
-"""
-    
-## Define the Rubic
-
 class Rubic:
-    def __init__():
-        # get the initial state of the rubic
-    
-    """ We suppose we have a Rubic cube in our hands,
-    it has right, left, up, down moves """
-    def move_right_left():
-        pass
-    
-    def move_up_down():
-        pass
-    
-    
-    
+   """
+   A Rubik's cube representation.
+   
+   This class is designed to simulate a Rubik's cube and perform operations on it.
+   """
+
+   def __init__(self):
+       """
+       Initialize the Rubik's cube.
+       
+       This method sets up the initial state of the Rubik's cube.
+       """
+       self.state = None
+
+   def move_right_left(self):
+       """
+       Perform a right-left move on the Rubik's cube.
+       
+       This method simulates the movement of the right-left side of the Rubik's cube.
+       """
+       pass
+
+   def move_up_down(self):
+       """
+       Perform an up-down move on the Rubik's cube.
+       
+       This method simulates the movement of the up-down side of the Rubik's cube.
+       """
+       pass
