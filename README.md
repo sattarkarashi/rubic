@@ -1,2 +1,8 @@
-# rubic
-Rubic cube has always been interesting for me but I have never had the chance to play with it and I never wanted to Rubic cube custom solutions. I was curious if I could someday spend some time on it and solve it. So, now I want to actually build a rubic cube using code and solve it.
+This project is a Python implementation of a solver for Rubik's cube puzzles. It uses a technique known as the "Minimal Thinking" technique to recognize the type of problem and use a predetermined result to jump straight to the solution1.
+
+Features
+Solves 1x2x2, 1x2x3, and 2x2x2 Rubik’s cube puzzles.
+Uses the "Minimal Thinking" technique to minimize the thought process behind solving the problem.
+Recognizes the current arrangement and orientation of the individual pieces of the puzzle and rearranges and reorients the pieces into the final state.
+Installation
+To install this project, clone the repository and navigate to the project directory. Then, run the following command to install the required dependencies:
